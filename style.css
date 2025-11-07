@@ -1,0 +1,159 @@
+/*.titulo{
+.dm-serif-display-regular-italic 
+  font-family:"calabria";
+  font-weight: 400;
+font-style: normal;
+}
+*/
+
+/*
+.a{
+    dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+.dm-serif-display-regular-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+botones{
+    color: #00ff00;
+   background: linear-gradient(145deg, #001100, #002200);
+    box-shadow: 0 0 15px rgba(101, 255, 54, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+} 
+.encabezado {
+    text-align: center;
+    padding: 50px 20px;
+    background: radial-gradient(circle at center, #001a00 0%, #000000 80%);
+    box-shadow: 0 0 20px #2ca85d;
+}
+
+.titulo {
+    font-family: "DM Serif Display", serif;
+    font-size: 4em;
+    color: #65ff36;
+    text-shadow: 0 0 10px #65ff36, 0 0 20px #00ff66;
+}
+
+/* -----
+.I{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+/*.boton{
+    background-color: #ba89fa;
+    border: solid 2px; 
+    border-radius: 20px;
+}*/
+h1, h2, h3, h4 {
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 2.5em;
+    color: #65ff36; 
+}
+h3 {
+    font-size: 1.8em;
+    color: #f8f528;
+}
+h4 {
+    color: #eccb82;
+}
+
+p {
+    font-size: 1.1em;
+    color: #e5e5e5;
+    max-width: 900px;
+    margin: 0 auto 20px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #65ff36;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+  }
+
+.boton:hover {
+    background-color: #1b3807;
+  }
+
+.bo{
+    color: aliceblue; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(105, 50, 76);
+}
+body{
+    background-color: #000000;
+    
+}
+
+.lista{
+    color: #fdfdff;
+    text-align: center;
+}
+h4{
+    color: #eccb82;
+}
+.encabezado{
+    text-align: center;
+}
+.botones{
+    text-align: center;
+}
+.inicio{
+    text-align: center;
+}
+.importancia{
+    text-align: center;
+}
+.TEMA{
+    text-align: center;
+}
+.introducción{
+    text-align: center;
+}
+.logicaa{
+    text-align: center;
+}
+.texto{
+    color: rgb(154, 161, 159);
+}
+.inicio, .importancia, .introducción, .TEMA, .soportee, .logicaa, .electronicaa {
+    text-align: center;
+    padding: 40px 10%;
+    margin: 40px auto;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #001100, #035003);
+    box-shadow: 0 0 15px rgba(101, 255, 54, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.INFOfin{
+    text-align: center;
+    padding: 40px 10%;
+    margin: 40px auto;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #041d03ff, #131212);
+    box-shadow: 0 0 15px rgba(241, 245, 241, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.fin{
+    color: #458f45;
+}
