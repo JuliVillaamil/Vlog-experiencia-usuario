@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Estudiar Informática</title>
+    <title>ESTUDIAR INFORMATICA</title>
+    <!--Que se adapte a todo tipo de pantallas-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lobster&family=Marck+Script&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
-    
-    <!-- Enlace al CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="encabezado">
         <h1 class="titulo">Estudiar informática</h1>
+        <header class="encabeza"></header>
         <div class="botones">
+            <!--Botones -->
             <a href="#importancia" class="boton">Importancia</a>
             <a href="#introduccion" class="boton">Introducción</a>
             <a href="#temas" class="boton">Temas explicados</a>
@@ -24,94 +24,131 @@
         </div>
     </div>
 
-    <section class="inicio">
-        <h3>Aclaración</h3>
-        <p>Esto es una página de un proyecto para mis clases de Experiencia de Usuario (Diseño web). Espero que con esto pueda ayudar a las personas a saber más sobre esta rama y contar mi experiencia y la de algunos conocidos estudiando esto. Pero más que nada, está inspirada en los vlogs que había en los 2000.</p>
-    </section>
-
-    <section id="importancia">
-        <h2>Cosas básicas que saber de este mundo</h2>
-        <p>El mundo de la informática en los últimos años ha evolucionado a pasos agigantados, y como el mundo avanza tanto, las personas que estudian estas áreas deben avanzar junto con él.</p>
-    </section>
-
-    <section id="introduccion">
-        <h2>Introducción</h2>
-        <p>La introducción, o cosas que usted debe saber antes de iniciar en la tecnología, son varias:</p>
-        <ul>
-            <li>Programación</li>
-            <li>Soporte/Partes de una PC</li>
-            <li>Lógica</li>
-            <li>Sistemas Operativos</li>
-            <li>Electrónica</li>
-            <li>Base de Datos</li>
-        </ul>
-        <p>Estos son algunos de los temas que hay en informática, explicados de manera muy simple, y teniendo las referencias que de momento puedo dar.</p>
-    </section>
-
-    <section id="temas">
-        <h2>Temas explicados</h2>
-        <h3>Programación</h3>
-        <p>En programación se enseñan varias cosas: variables, Strings, Arrays, int, double, char, float, etc.</p>
-        <div class="codigo">
-<pre>
-<p>// Rifa 2, lo mismo solo que con Array</p>
-<p>import java.util.ArrayList;</p>
-<p>import java.util.Scanner;</p>
-<p>public class Rifas2 {</p>
-<p>  public static void main(String[] args) {</p>
-<p>      Scanner scanner = new Scanner(System.in);</p>
-<p>      ArrayList&lt;String&gt; nombres = new ArrayList&lt;&gt;(10);</p>
-<p>      int[] numeros = new int[10];</p>
-<p>      for (int i = 0; i &lt; 10; i++) {</p>
-<p>          System.out.print("Dame tu nombre: ");</p>
-<p>          String nombre = scanner.nextLine();</p>
-<p>          nombres.add(nombre);</p>
-<p>          System.out.print("Elige un número del 1 al 10: ");</p>
-<p>          int numero = scanner.nextInt();</p>
-<p>          scanner.nextLine();</p>
-<p>          numeros[i] = numero;</p>
-<p>      }</p>
-<p>      int indiceGanador = (int)(Math.random() * nombres.size());</p>
-<p>      int numeroGanador = numeros[indiceGanador];</p>
-<p>      System.out.println("El número ganador es: " + numeroGanador);</p>
-<p>      System.out.println("Felicidades, " + nombres.get(indiceGanador));</p>
-<p>      scanner.close();</p>
-<p>  }</p>
-<p>}</p>
-</pre>
+    <section class="INICIO">
+        <div class="inicio">
+            <h3>Aclaración</h3>
+            <p class="pipipi">Esto es una página de un proyecto para mis clases de experiencia de usuario (Diseño web). Espero que con esto pueda ayudar a las personas a saber más sobre esta rama. Y contar mi experiencia y la de algunos conocidos estudiando esto, pero esto es más que nada, esto esta inspirado en los vlogs que habían en los 2000s.</p>
         </div>
     </section>
 
-    <section id="ciencia">
-        <h3>Soporte</h3>
-        <p>En la materia de soporte se ven las partes, funciones y otros aspectos de las computadoras.</p>
-        <img src="Soporte.png" alt="Soporte técnico" class="responsive-img">
+    <section>
+        <div class="importancia" id="importancia">
+            <h2>Cosas básicas que saber de este mundo</h2>
+            <p>El mundo de la informática estos últimos años ha evolucionado a pasos agigantados... y que como el mundo va avanzando tanto las personas que estudian estas áreas tienen que avanzar junto a ella.</p>
+        </div>
     </section>
 
     <section>
-        <h3>Lógica</h3>
-        <p>En lógica los temas que tuvimos fueron: diseño lógico de circuitos, diferencia simétrica, relaciones, funciones, gráficas compuestas, grafos, recursión, etc.</p>
-        <img src="diferenciasimútrica.jpg" alt="Ejemplo de lógica" class="responsive-img">
+        <div class="introducción" id="introduccion">
+            <h2>Introducción</h2>
+            <p>La Introducción, o cosas que usted ha de saber antes de iniciar en la tecnología son varias cosas:</p>
+            <main>
+                <div class="lista">
+                    <article>
+                        <aside>
+                            <ul>
+                                <li>Programación</li>
+                                <li>Soporte/Partes de una PC</li>
+                                <li>Lógica</li>
+                                <li>Sistemas Operativos</li>
+                                <li>Electrónica</li>
+                                <li>Base de Datos</li>
+                            </ul>
+                        </aside>
+                    </article>
+                </div>
+            </main>
+        </div>
     </section>
 
-    <section>
-        <h3>Electrónica</h3>
-        <p>Lo que vimos en electrónica fue principalmente: diagramas, ley de Ohm, circuitos, conductores, entre otros.</p>
-        <p>Explicación y ejemplo de algunos:</p>
-        <img src="leydehom.webp" alt="Ley de Ohm" class="responsive-img">
-        <img src="simbolos.jpg" alt="Símbolos electrónicos" class="responsive-img">
-    </section>
+    <center>
+        <div class="video">
+            <p>Estos son algunos temas los que hay en informatica, explicados de manera muy simple. Y teneindo las referencias, que de momento puedo decir. </p>
+        </div>
+    </center>
 
-    <section>
-        <h2>Mi experiencia en particular</h2>
-        <p>Puedo decir que ha sido un curso bastante interesante, donde aprendes constantemente temas muy interesantes. Lo principalmente malo que podríamos decir es que la carga horaria es bastante pesada.</p>
-        <p>También podemos decir que en esta área, al estar constantemente aprendiendo, podremos aplicar la mayoría de las cosas aprendidas en el ámbito laboral.</p>
-    </section>
+    <main class="temario">
+        <div class="TEMA" id="temas">
+            <h2>Temas explicados</h2>
+            <section>
+                <div class="programación">
+                    <center>
+                        <h3>Programación</h3>
+                        <p>En programación darán varias cosas: variables, Strings, Arrays, int, double, char, float, etc.</p>
+                        <div class="ej1">
+                            <h4>Ejemplo de mis códigos</h4>
+                            <p>// Rifa 2, lo mismo solo que con Array</p>
+                            <p>import java.util.ArrayList;</p>
+                            <p>java.util.Scanner;</p>
+                            <p>public class Rifas2 {</p>
+                            <p>public static void main(String[] args) {</p>
+                            <p>scanner = new Scanner(System.in);</p>
+                            <p>ArrayList&lt;String&gt; nombres = new ArrayList&lt;&gt;(10);</p>
+                            <p>int[] numeros = new int[10];</p>
+                            <p>for (int i = 0; i &lt; 10; i++) {</p>
+                            <p>System.out.print("Dame tu nombre: ");</p>
+                            <p>String nombre = scanner.nextLine();</p>
+                            <p>nombres.add(nombre);</p>
+                            <p>System.out.print("Elige un número del 1 al 10: ");</p>
+                            <p>int numero = scanner.nextInt();</p>
+                            <p>scanner.nextLine();</p>
+                            <p>numeros[i] = numero;</p>
+                            <p>}</p>
+                            <p>indiceGanador = (int)(Math.random() * nombres.size());</p>
+                            <p>int numeroGanador = numeros[indiceGanador];</p>
+                            <p>System.out.println("El número ganador es: " + numeroGanador);</p>
+                            <p>System.out.println("Felicidades, " + nombres.get(indiceGanador));</p>
+                            <p>scanner.close();</p>
+                            <p>}</p>
+                            <p>}</p>
+                        </div>
+                    </center>
+                </div>
+            </section>
+        </div>
 
-    <footer class="INFOfin">
-        <p>Proyecto creado por la alumna María Villamil, con la intención de informar y que las personas interesadas en estudiar informática puedan tener algunos puntos y referencias de lo que estudiamos.</p>
-        <p>Mil gracias.</p>
-    </footer>
+        <section>
+            <center>
+                <div class="soportee" id="ciencia">
+                    <h3>Soporte</h3>
+                    <p>En la materia de soporte se ven partes, funciones y otras cosas de las computadoras...</p>
+                    <img src="Soporte.png" width="500">
+                </div>
+            </center>
+        </section>
+
+        <section>
+            <div class="logicaa">
+                <h3>Lógica</h3>
+                <p>En lógica los temas que tuvimos fueron: diseño lógico de circuitos, diferencia simétrica, relaciones, funciones, gráficas compuestas, grafos, recursión, etc.</p>
+                <img src="diferenciasimútrica.jpg" width="500">
+            </div>
+        </section>
+
+        <section>
+            <center>
+                <div class="electronicaa">
+                    <h3>Electrónica</h3>
+                    <p>Lo que vimos en electrónica fue principalmente: diagramas, ley de Ohm, circuitos, conductores, entre otros.</p>
+                    <p>Explicación y ejemplo de algunos:</p>
+                    <img src="leydehom.webp" width="300">
+                    <img src="simbolos.jpg" width="250">
+                </div>
+            </center>
+
+            <center>
+                <div>
+                    <h2>Mi experiencia en particular</h2>
+                    <p>Puedo decir que ha sido un curso bastante interesante, donde eprendes constantemente temas muy interesantes... lo principalmente malo que podriamos decir es que; la carga horaria que hay es bastante pesada.</p>
+                    <p>Tambien podemos decir que en esta área de la de que estamos constantemente aprendiendo, podremos apliar la mayoria de las cosas aprendidad en el área laboral.</p>
+                </div>
+            </center>
+        </section>
+
+        <div class="INFOfin">
+            <p class="fin">Proyecto creado por la alumna María Villamil. Con la intención de informar, y que las personas interesadas en estudiar informatica, puedan tener algunos puntos y referencias de lo que estudiamos.</p>
+            <p class="fin">Mil gracias</p>
+        </div>
+    </main>
 </body>
 </html>
-
